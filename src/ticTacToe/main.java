@@ -30,7 +30,7 @@ class main {
 			} else {
 				int nCella = -1;
 				do {
-					System.out.println("inserisci numero cella valido");
+					System.out.println("inserisci numero cella valido:"+'\n');
 					nCella = sc.nextInt();
 				} while (!isValid(nCella, board.data));
 				String rowAndCol = rowAndcolByCellNumber(nCella);
